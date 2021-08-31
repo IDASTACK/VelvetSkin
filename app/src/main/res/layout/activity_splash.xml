@@ -10,7 +10,9 @@
         android:id="@+id/icono_splash"
         android:layout_width="219dp"
         android:layout_height="270dp"
-        app:srcCompat="@drawable/img_velvetskin"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="230dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_velvetskin" />
 </androidx.constraintlayout.widget.ConstraintLayout>
